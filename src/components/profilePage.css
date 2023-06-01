@@ -1,0 +1,100 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.container{
+  margin-top: 50px;
+}
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: rgb(221, 221, 221);
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(25, 69, 157);
+ position: relative;
+
+}
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  
+}
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  
+  margin-top: 5px;
+  object-fit: cover;
+
+  border: 2px solid #19459d;
+}
+
+.card-body {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* .card-content h2 {
+  color: rgb(25, 69, 157);
+} */
+
+.input-column {
+  align-items: left;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-label {
+  flex-basis: 100px;
+  color: #19459d;
+  align-items: left;
+  justify-content: left;
+  display: flex;
+  margin-left: 10px;
+}
+
+.input-answer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: left;
+  font-family: sans-serif;
+}
+
+.input-answer input {
+  margin-left: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+.input-answer input:focus {
+  outline: 0.5px #19459d;
+}
+
+button[type="submit"] {
+  background-color: #19459d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 50px;
+  transition: color 0.3s;
+  align-self: center;
+  margin-top: 20px;
+}
+button[type="submit"]:hover {
+  color: #007bff;
+}
